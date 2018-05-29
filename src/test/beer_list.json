@@ -1,0 +1,538 @@
+[
+{"Brewery":"Amicas Pizza | Microbrews and More","City":"Salida","Name":"Loyal Duke Scotch Ale","Abv":"8.6%","Ibu":"?","Srm":"?","Tags":"british_ale|scotch_ale"}
+,
+{"Brewery":"Aspen Brewing Company","City":"Aspen","Name":"Conundrum Red Ale","Abv":"7%","Ibu":"65","Srm":"13","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Avery Brewing Company","City":"Boulder","Name":"Ale To The Chief","Abv":"8.75%","Ibu":"?","Srm":"?","Tags":"north_american_ale|imperial_or_double_india_pale_ale"}
+,
+{"Brewery":"Avery Brewing Company","City":"Boulder","Name":"Czar Imperial Stout","Abv":"11.9%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"Avery Brewing Company","City":"Boulder","Name":"DuganA IPA","Abv":"8.5%","Ibu":"?","Srm":"?","Tags":"north_american_ale|imperial_or_double_india_pale_ale"}
+,
+{"Brewery":"Avery Brewing Company","City":"Boulder","Name":"Fourteen","Abv":"9.46%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Avery Brewing Company","City":"Boulder","Name":"Hog Heaven Barleywine","Abv":"9.2%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_barley_wine_ale"}
+,
+{"Brewery":"Avery Brewing Company","City":"Boulder","Name":"Karma","Abv":"5.2%","Ibu":"?","Srm":"?","Tags":"belgian_and_french_ale|belgian_style_pale_ale"}
+,
+{"Brewery":"Avery Brewing Company","City":"Boulder","Name":"Maharaja | The","Abv":"10.5%","Ibu":"?","Srm":"?","Tags":"north_american_ale|imperial_or_double_india_pale_ale"}
+,
+{"Brewery":"Avery Brewing Company","City":"Boulder","Name":"Mephistopheles Stout","Abv":"16.03%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"Avery Brewing Company","City":"Boulder","Name":"Old Jubilation Ale","Abv":"8%","Ibu":"30","Srm":"?","Tags":"british_ale|strong_ale"}
+,
+{"Brewery":"Avery Brewing Company","City":"Boulder","Name":"Reverend | The","Abv":"10%","Ibu":"?","Srm":"?","Tags":"belgian_and_french_ale|belgian_style_quadrupel"}
+,
+{"Brewery":"Avery Brewing Company","City":"Boulder","Name":"Salvation","Abv":"9%","Ibu":"?","Srm":"?","Tags":"belgian_and_french_ale|other_belgian_style_ales"}
+,
+{"Brewery":"Avery Brewing Company","City":"Boulder","Name":"Samael's Oak-aged Ale","Abv":"14.5%","Ibu":"41","Srm":"12.5","Tags":"british_ale|strong_ale"}
+,
+{"Brewery":"Avery Brewing Company","City":"Boulder","Name":"The Beast Grand Cru","Abv":"14.9%","Ibu":"?","Srm":"?","Tags":"belgian_and_french_ale|belgian_style_dark_strong_ale"}
+,
+{"Brewery":"Backcountry Brewery","City":"Frisco","Name":"Old Smoky","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Backcountry Brewery","City":"Frisco","Name":"Peak One Porter","Abv":"?","Ibu":"?","Srm":"?","Tags":"irish_ale|porter"}
+,
+{"Brewery":"Blicks Brewing","City":"Colorado Springs","Name":"Blind Side Pale Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Boulder Beer Company","City":"Boulder","Name":"Cold Hop","Abv":"6.5%","Ibu":"?","Srm":"?","Tags":"british_ale|english_style_india_pale_ale"}
+,
+{"Brewery":"Boulder Beer Company","City":"Boulder","Name":"Flashback Anniversary Ale","Abv":"6.8%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_brown_ale"}
+,
+{"Brewery":"Boulder Beer Company","City":"Boulder","Name":"GABF 25th Year Beer","Abv":"?","Ibu":"?","Srm":"?","Tags":"british_ale|extra_special_bitter"}
+,
+{"Brewery":"Boulder Beer Company","City":"Boulder","Name":"Hazed & Infused Dry-Hopped Ale","Abv":"4.85%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Boulder Beer Company","City":"Boulder","Name":"Killer Penguin","Abv":"10%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_barley_wine_ale"}
+,
+{"Brewery":"Boulder Beer Company","City":"Boulder","Name":"MoJo India Pale Ale","Abv":"6.8%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_india_pale_ale"}
+,
+{"Brewery":"Boulder Beer Company","City":"Boulder","Name":"Mojo Risin' Double IPA","Abv":"10%","Ibu":"?","Srm":"?","Tags":"north_american_ale|imperial_or_double_india_pale_ale"}
+,
+{"Brewery":"Boulder Beer Company","City":"Boulder","Name":"Never Summer Ale","Abv":"5.94%","Ibu":"?","Srm":"?","Tags":"other_style|winter_warmer"}
+,
+{"Brewery":"Boulder Beer Company","City":"Boulder","Name":"Obovoid Empirical Stout","Abv":"8%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_imperial_stout"}
+,
+{"Brewery":"Boulder Beer Company","City":"Boulder","Name":"Planet Porter / Boulder Porter","Abv":"5.5%","Ibu":"?","Srm":"?","Tags":"irish_ale|porter"}
+,
+{"Brewery":"Boulder Beer Company","City":"Boulder","Name":"Singletrack Copper Ale","Abv":"4.97%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Boulder Beer Company","City":"Boulder","Name":"Sweaty Betty Blonde","Abv":"5.9%","Ibu":"?","Srm":"?","Tags":"other_style|light_american_wheat_ale_or_lager"}
+,
+{"Brewery":"Breckenridge Brewery","City":"Denver","Name":"471 Double IPA","Abv":"9.2%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_india_pale_ale"}
+,
+{"Brewery":"Breckenridge Brewery","City":"Denver","Name":"471 Extra ESB","Abv":"7.8%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Breckenridge Brewery","City":"Denver","Name":"471 IPA","Abv":"9.2%","Ibu":"?","Srm":"?","Tags":"north_american_ale|imperial_or_double_india_pale_ale"}
+,
+{"Brewery":"Breckenridge Brewery","City":"Denver","Name":"471 Pilsner","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Breckenridge Brewery","City":"Denver","Name":"Autumn Ale","Abv":"6.7%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_brown_ale"}
+,
+{"Brewery":"Breckenridge Brewery","City":"Denver","Name":"Avalanche Amber","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Breckenridge Brewery","City":"Denver","Name":"Avalanche Amber","Abv":"5.4%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Breckenridge Brewery","City":"Denver","Name":"Christmas Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_brown_ale"}
+,
+{"Brewery":"Breckenridge Brewery","City":"Denver","Name":"Hefe Proper Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Breckenridge Brewery","City":"Denver","Name":"Lucky U Denver Special Bitter","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Breckenridge Brewery","City":"Denver","Name":"Mountain Wheat","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Breckenridge Brewery","City":"Denver","Name":"Oatmeal Stout","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"Breckenridge Brewery","City":"Denver","Name":"Remarkable Vanilla Porter","Abv":"?","Ibu":"?","Srm":"?","Tags":"irish_ale|porter"}
+,
+{"Brewery":"Breckenridge Brewery","City":"Denver","Name":"Summer Bright Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Breckenridge Brewery","City":"Denver","Name":"Thunder Stout","Abv":"4.95%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"Breckenridge Brewery","City":"Denver","Name":"Trademark English Pale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Bristol Brewing","City":"Colorado Springs","Name":"Winter Warlock Oatmeal Stout","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"Bull & Bush Pub & Brewery","City":"Denver","Name":"Allgood Amber Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Bull & Bush Pub & Brewery","City":"Denver","Name":"Barleywine","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Bull & Bush Pub & Brewery","City":"Denver","Name":"Big Ben Brown","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_brown_ale"}
+,
+{"Brewery":"Bull & Bush Pub & Brewery","City":"Denver","Name":"Cream","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Bull & Bush Pub & Brewery","City":"Denver","Name":"Fall Fest","Abv":"?","Ibu":"?","Srm":"?","Tags":"german_lager|german_style_oktoberfest"}
+,
+{"Brewery":"Bull & Bush Pub & Brewery","City":"Denver","Name":"Hefeweizen","Abv":"?","Ibu":"?","Srm":"?","Tags":"german_ale|south_german_style_hefeweizen"}
+,
+{"Brewery":"Bull & Bush Pub & Brewery","City":"Denver","Name":"KÃ¶lsch","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Bull & Bush Pub & Brewery","City":"Denver","Name":"Portsmouth Pale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Bull & Bush Pub & Brewery","City":"Denver","Name":"Royal Arms IPA","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_india_pale_ale"}
+,
+{"Brewery":"Bull & Bush Pub & Brewery","City":"Denver","Name":"Stonehenge Stout","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"Bull & Bush Pub & Brewery","City":"Denver","Name":"Tower ESB","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Bull & Bush Pub & Brewery","City":"Denver","Name":"Yuel Fuel","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Carver Brewing Co.","City":"Durango","Name":"Colorado Trail Nut Brown Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_brown_ale"}
+,
+{"Brewery":"Carver Brewing Co.","City":"Durango","Name":"Iron Horse Oatmeal Stout","Abv":"?","Ibu":"?","Srm":"?","Tags":"british_ale|oatmeal_stout"}
+,
+{"Brewery":"Carver Brewing Co.","City":"Durango","Name":"Lightner Creek Lager","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Carver Brewing Co.","City":"Durango","Name":"Old Oak Amber Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Cheshire Cat Brewery","City":"Arvada","Name":"Arrogant Brit","Abv":"5.3%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Cheshire Cat Brewery","City":"Arvada","Name":"Black Cat Stout","Abv":"6.15%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"Cheshire Cat Brewery","City":"Arvada","Name":"Fat Cat","Abv":"7.25%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Cheshire Cat Brewery","City":"Arvada","Name":"IPA","Abv":"6.9%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_india_pale_ale"}
+,
+{"Brewery":"Cheshire Cat Brewery","City":"Arvada","Name":"Pilsner","Abv":"4.85%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Coors Brewing - Golden Brewery","City":"Golden","Name":"Blue Moon Abbey Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Coors Brewing - Golden Brewery","City":"Golden","Name":"Blue Moon Belgian White","Abv":"5.4%","Ibu":"?","Srm":"?","Tags":"belgian_and_french_ale|belgian_style_white"}
+,
+{"Brewery":"Coors Brewing - Golden Brewery","City":"Golden","Name":"Coors Extra Gold Lager","Abv":"5%","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Coors Brewing - Golden Brewery","City":"Golden","Name":"Coors Light","Abv":"4.2%","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_light_lager"}
+,
+{"Brewery":"Coors Brewing - Golden Brewery","City":"Golden","Name":"Coors Original","Abv":"5%","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_light_lager"}
+,
+{"Brewery":"Coors Brewing - Golden Brewery","City":"Golden","Name":"Harvest Moon Pumpkin","Abv":"5.7%","Ibu":"?","Srm":"?","Tags":"other_style|pumpkin_beer"}
+,
+{"Brewery":"Coors Brewing - Golden Brewery","City":"Golden","Name":"Honey Moon Summer Ale","Abv":"5.6%","Ibu":"?","Srm":"?","Tags":"other_style|light_american_wheat_ale_or_lager"}
+,
+{"Brewery":"Coors Brewing - Golden Brewery","City":"Golden","Name":"Keystone Light","Abv":"4.2%","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_light_lager"}
+,
+{"Brewery":"Coors Brewing - Golden Brewery","City":"Golden","Name":"Killian's Irish Red","Abv":"4.9%","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Coors Brewing - Golden Brewery","City":"Golden","Name":"Rising Moon Spring Ale","Abv":"5.4%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Coors Brewing - Golden Brewery","City":"Golden","Name":"Zima Clear","Abv":"5%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Crested Butte Brewery &  Pub","City":"Crested Butte","Name":"Red Lady Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Denver ChopHouse and Brewery","City":"Denver","Name":"Buffalo Gold","Abv":"6.3%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Denver ChopHouse and Brewery","City":"Denver","Name":"Honey Wheat","Abv":"4.46%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Denver ChopHouse and Brewery","City":"Denver","Name":"Lucky U Denver Special Bitter","Abv":"4.46%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Denver ChopHouse and Brewery","City":"Denver","Name":"Nut Brown Ale","Abv":"5.2%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_brown_ale"}
+,
+{"Brewery":"Denver ChopHouse and Brewery","City":"Denver","Name":"Oatmeal Stout","Abv":"6.54%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"Denver ChopHouse and Brewery","City":"Denver","Name":"Pale Ale","Abv":"5.5%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Denver ChopHouse and Brewery","City":"Denver","Name":"Pilsner","Abv":"4.99%","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Denver ChopHouse and Brewery","City":"Denver","Name":"Redwing","Abv":"4.73%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Denver ChopHouse and Brewery","City":"Denver","Name":"Singletrack Copper Ale","Abv":"5.57%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Denver ChopHouse and Brewery","City":"Denver","Name":"Wild Turkey Bourbon Stout","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Dillon Dam Brewery","City":"Dillon","Name":"Dam Straight Lager","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Dillon Dam Brewery","City":"Dillon","Name":"Extra Special Bitter","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Dixon's Downtown Grill","City":"Denver","Name":"Angel Amber","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Dixon's Downtown Grill","City":"Denver","Name":"Platte Valley Pale Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Dixon's Downtown Grill","City":"Denver","Name":"Solitaire Stout","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"Dixon's Downtown Grill","City":"Denver","Name":"Uncle Dunkel","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Dixon's Downtown Grill","City":"Denver","Name":"Wazee Wheat","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Dostal Alley","City":"Central City","Name":"Powder Keg Raspberry Porter","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Estes Park Brewery","City":"Estes Park","Name":"Estes Park Gold","Abv":"4.2%","Ibu":"?","Srm":"?","Tags":"north_american_ale|golden_or_blonde_ale"}
+,
+{"Brewery":"Estes Park Brewery","City":"Estes Park","Name":"Estes Park Porter","Abv":"4.6%","Ibu":"?","Srm":"?","Tags":"irish_ale|porter"}
+,
+{"Brewery":"Estes Park Brewery","City":"Estes Park","Name":"Long's Peak Raspberry Wheat","Abv":"4.2%","Ibu":"?","Srm":"?","Tags":"other_style|fruit_beer"}
+,
+{"Brewery":"Estes Park Brewery","City":"Estes Park","Name":"Renegade IPA","Abv":"5.8%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_india_pale_ale"}
+,
+{"Brewery":"Estes Park Brewery","City":"Estes Park","Name":"Samson Stout","Abv":"5%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"Estes Park Brewery","City":"Estes Park","Name":"Staggering Elk","Abv":"4.5%","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Estes Park Brewery","City":"Estes Park","Name":"Stinger Wild Honey Wheat","Abv":"6%","Ibu":"?","Srm":"?","Tags":"other_style|light_american_wheat_ale_or_lager"}
+,
+{"Brewery":"Estes Park Brewery","City":"Estes Park","Name":"Trail Ridge Red","Abv":"4.5%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Flying Dog Brewery","City":"Denver","Name":"Classic Pale Ale","Abv":"5.5%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Flying Dog Brewery","City":"Denver","Name":"Doggie Style Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Flying Dog Brewery","City":"Denver","Name":"Dogtoberfest Octoberfest","Abv":"5.3%","Ibu":"?","Srm":"?","Tags":"german_lager|german_style_oktoberfest"}
+,
+{"Brewery":"Flying Dog Brewery","City":"Denver","Name":"Double Dog Double Pale Ale","Abv":"11.5%","Ibu":"?","Srm":"?","Tags":"north_american_ale|imperial_or_double_india_pale_ale"}
+,
+{"Brewery":"Flying Dog Brewery","City":"Denver","Name":"Garde Dog","Abv":"5.8%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Flying Dog Brewery","City":"Denver","Name":"Gonzo Imperial Porter","Abv":"7.8%","Ibu":"?","Srm":"?","Tags":"irish_ale|porter"}
+,
+{"Brewery":"Flying Dog Brewery","City":"Denver","Name":"Heller Hound Bock Beer","Abv":"6.2%","Ibu":"?","Srm":"?","Tags":"german_lager|german_style_heller_bock_maibock"}
+,
+{"Brewery":"Flying Dog Brewery","City":"Denver","Name":"Horn Dog","Abv":"10.2%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_barley_wine_ale"}
+,
+{"Brewery":"Flying Dog Brewery","City":"Denver","Name":"In-Heat Wheat","Abv":"4.7%","Ibu":"?","Srm":"?","Tags":"german_ale|south_german_style_hefeweizen"}
+,
+{"Brewery":"Flying Dog Brewery","City":"Denver","Name":"K-9 Cruiser Winter Ale","Abv":"6.4%","Ibu":"?","Srm":"?","Tags":"british_ale|old_ale"}
+,
+{"Brewery":"Flying Dog Brewery","City":"Denver","Name":"Kerberos","Abv":"8.5%","Ibu":"?","Srm":"?","Tags":"belgian_and_french_ale|belgian_style_tripel"}
+,
+{"Brewery":"Flying Dog Brewery","City":"Denver","Name":"Old Scratch Lager","Abv":"5.5%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Flying Dog Brewery","City":"Denver","Name":"Raging Bitch Belgian IPA","Abv":"8.3%","Ibu":"?","Srm":"?","Tags":"belgian_and_french_ale|other_belgian_style_ales"}
+,
+{"Brewery":"Flying Dog Brewery","City":"Denver","Name":"Road Dog Ale","Abv":"6%","Ibu":"?","Srm":"?","Tags":"irish_ale|porter"}
+,
+{"Brewery":"Flying Dog Brewery","City":"Denver","Name":"Snake Dog IPA","Abv":"7.1%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_india_pale_ale"}
+,
+{"Brewery":"Flying Dog Brewery","City":"Denver","Name":"Woody Creek White","Abv":"4.8%","Ibu":"?","Srm":"?","Tags":"belgian_and_french_ale|belgian_style_white"}
+,
+{"Brewery":"Fort Collins Brewery","City":"Fort Collins","Name":"Chocolate Stout","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"Fort Collins Brewery","City":"Fort Collins","Name":"The Kidd Lager","Abv":"?","Ibu":"?","Srm":"?","Tags":"german_lager|german_style_schwarzbier"}
+,
+{"Brewery":"Fort Collins Brewery","City":"Fort Collins","Name":"Z Lager","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Glenwood Canyon Brewing Company","City":"Glenwood Springs","Name":"Dos Rios Vienna Lager","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Golden City Brewery","City":"Golden","Name":"Brain Damage","Abv":"?","Ibu":"?","Srm":"?","Tags":"british_ale|old_ale"}
+,
+{"Brewery":"Gore Range Brewery","City":"Edwards","Name":"Fly Fisher Red","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Grand Lake Brewing","City":"Grand Lake","Name":"Plaid Bastard","Abv":"8%","Ibu":"?","Srm":"?","Tags":"british_ale|scotch_ale"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Bee Sting Honey Ale","Abv":"5.9%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Claymore Scotch Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"british_ale|scotch_ale"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Denver Pale Ale / DPA","Abv":"5.4%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Espresso Oak Aged Yeti","Abv":"9.5%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_imperial_stout"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Fresh Hop Pale Ale","Abv":"6.1%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Great Divide Belgica","Abv":"7.2%","Ibu":"?","Srm":"?","Tags":"belgian_and_french_ale|other_belgian_style_ales"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Great Divide Dunkel Weiss","Abv":"6.4%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Great Divide Saison","Abv":"7.3%","Ibu":"?","Srm":"?","Tags":"belgian_and_french_ale|french_&_belgian_style_saison"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Hades","Abv":"7.3%","Ibu":"?","Srm":"?","Tags":"belgian_and_french_ale|belgian_style_pale_strong_ale"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Hercules Double IPA","Abv":"9.1%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_india_pale_ale"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Hibernation Ale","Abv":"8.1%","Ibu":"?","Srm":"?","Tags":"british_ale|old_ale"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Hot Shot ESB","Abv":"5%","Ibu":"?","Srm":"?","Tags":"british_ale|extra_special_bitter"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Oak Aged Yeti Imperial Stout","Abv":"9.5%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_imperial_stout"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Old Ruffian","Abv":"10.2%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_barley_wine_ale"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Ridgeline Amber","Abv":"5.4%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Samurai","Abv":"5.1%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"St. Bridget's Porter","Abv":"5.9%","Ibu":"?","Srm":"?","Tags":"irish_ale|porter"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Titan IPA","Abv":"6.8%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_india_pale_ale"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Wild Raspberry Ale","Abv":"5.6%","Ibu":"?","Srm":"?","Tags":"other_style|fruit_beer"}
+,
+{"Brewery":"Great Divide Brewing","City":"Denver","Name":"Yeti Imperial Stout","Abv":"9.5%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_imperial_stout"}
+,
+{"Brewery":"Great Northern Tavern and Brewery","City":"Keystone","Name":"Empire Builder Stout","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"HC Berger Brewing","City":"Fort Collins","Name":"Chocolate Stout","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"HC Berger Brewing","City":"Fort Collins","Name":"Colorado KÃ¶lsch Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"HC Berger Brewing","City":"Fort Collins","Name":"Rauchbier","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"HC Berger Brewing","City":"Fort Collins","Name":"Red Raspberry","Abv":"?","Ibu":"?","Srm":"?","Tags":"other_style|light_american_wheat_ale_or_lager"}
+,
+{"Brewery":"Heavenly Daze Brewery and Grill","City":"Denver","Name":"Amber Daze","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Heavenly Daze Brewery and Grill","City":"Denver","Name":"Backpacker IPA","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_india_pale_ale"}
+,
+{"Brewery":"Heavenly Daze Brewery and Grill","City":"Denver","Name":"Daze Scottish Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Heavenly Daze Brewery and Grill","City":"Denver","Name":"Derailer ESB","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Heavenly Daze Brewery and Grill","City":"Denver","Name":"El Rey Cerveza","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Heavenly Daze Brewery and Grill","City":"Denver","Name":"Heavenly Hefeweizen","Abv":"?","Ibu":"?","Srm":"?","Tags":"german_ale|south_german_style_hefeweizen"}
+,
+{"Brewery":"Heavenly Daze Brewery and Grill","City":"Denver","Name":"Porcupine Porter","Abv":"?","Ibu":"?","Srm":"?","Tags":"irish_ale|porter"}
+,
+{"Brewery":"Heavenly Daze Brewery and Grill","City":"Denver","Name":"Rainbow Trout Stout","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"Hops Grillhouse & Brewery - Cherry Creek","City":"Denver","Name":"Alligator Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Hops Grillhouse & Brewery - Cherry Creek","City":"Denver","Name":"Clearwater Light","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Hops Grillhouse & Brewery - Cherry Creek","City":"Denver","Name":"Hoptoberfest","Abv":"?","Ibu":"?","Srm":"?","Tags":"german_lager|german_style_oktoberfest"}
+,
+{"Brewery":"Hops Grillhouse & Brewery - Cherry Creek","City":"Denver","Name":"Lightning Bold Gold","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Hops Grillhouse & Brewery - Cherry Creek","City":"Denver","Name":"Thoroughbred Red","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Hubcap Brewery and Kitchen","City":"Vail","Name":"Beaver Tail Brown Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_brown_ale"}
+,
+{"Brewery":"Hubcap Brewery and Kitchen","City":"Vail","Name":"Pale Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Hubcap Brewery and Kitchen","City":"Vail","Name":"Rainbow Trout Stout","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"Jarre Creek Ranch Brewing","City":"Castle Rock","Name":"Amber Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Left Hand Brewing Company","City":"Longmont","Name":"Black Jack Porter","Abv":"?","Ibu":"?","Srm":"?","Tags":"irish_ale|porter"}
+,
+{"Brewery":"Left Hand Brewing Company","City":"Longmont","Name":"Goosinator Smoked Doppelbock 2007","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Left Hand Brewing Company","City":"Longmont","Name":"JuJu Ginger","Abv":"4%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Left Hand Brewing Company","City":"Longmont","Name":"Left Hand Milk Stout","Abv":"5.9%","Ibu":"?","Srm":"?","Tags":"british_ale|sweet_stout"}
+,
+{"Brewery":"Left Hand Brewing Company","City":"Longmont","Name":"Pole Star Pilsner","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Left Hand Brewing Company","City":"Longmont","Name":"Sawtooth Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Left Hand Brewing Company","City":"Longmont","Name":"Snow Bound Winter Ale","Abv":"8.6%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Left Hand Brewing Company","City":"Longmont","Name":"Warrior IPA","Abv":"6.6%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_india_pale_ale"}
+,
+{"Brewery":"Left Hand Brewing Company","City":"Longmont","Name":"Widdershins Barleywine","Abv":"9.1%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Mill Steakhouse","City":"Littleton","Name":"5280 Roadhouse Ghost Town Brown","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_brown_ale"}
+,
+{"Brewery":"Mountain Sun Pub & Brewery","City":"Boulder","Name":"Altmans Alt","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_brown_ale"}
+,
+{"Brewery":"Mountain Sun Pub & Brewery","City":"Boulder","Name":"Chazz Cat Rye","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"New Belgium Brewing","City":"Fort Collins","Name":"1554 Enlightened Black Ale","Abv":"5.5%","Ibu":"?","Srm":"?","Tags":"belgian_and_french_ale|other_belgian_style_ales"}
+,
+{"Brewery":"New Belgium Brewing","City":"Fort Collins","Name":"2Â° Below","Abv":"6.6%","Ibu":"?","Srm":"?","Tags":"british_ale|extra_special_bitter"}
+,
+{"Brewery":"New Belgium Brewing","City":"Fort Collins","Name":"Abbey Belgian Style Ale","Abv":"7%","Ibu":"?","Srm":"?","Tags":"belgian_and_french_ale|belgian_style_dubbel"}
+,
+{"Brewery":"New Belgium Brewing","City":"Fort Collins","Name":"Big Shot Seasonal Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"irish_ale|porter"}
+,
+{"Brewery":"New Belgium Brewing","City":"Fort Collins","Name":"Blue Paddle Pilsener","Abv":"4.8%","Ibu":"?","Srm":"?","Tags":"german_lager|german_style_pilsener"}
+,
+{"Brewery":"New Belgium Brewing","City":"Fort Collins","Name":"Fat Tire Amber Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"New Belgium Brewing","City":"Fort Collins","Name":"Frambozen","Abv":"?","Ibu":"?","Srm":"?","Tags":"belgian_and_french_ale|belgian_style_fruit_lambic"}
+,
+{"Brewery":"New Belgium Brewing","City":"Fort Collins","Name":"La Folie","Abv":"6%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"New Belgium Brewing","City":"Fort Collins","Name":"La Folie Falling Rock","Abv":"6%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"New Belgium Brewing","City":"Fort Collins","Name":"Mothership Wit","Abv":"4.8%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"New Belgium Brewing","City":"Fort Collins","Name":"New Belgium Trippel Belgian Style Ale","Abv":"8.5%","Ibu":"?","Srm":"?","Tags":"belgian_and_french_ale|belgian_style_tripel"}
+,
+{"Brewery":"New Belgium Brewing","City":"Fort Collins","Name":"Ranger India Pale Ale","Abv":"6.5%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_india_pale_ale"}
+,
+{"Brewery":"New Belgium Brewing","City":"Fort Collins","Name":"Saison","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"New Belgium Brewing","City":"Fort Collins","Name":"Skinny Dip","Abv":"4.2%","Ibu":"?","Srm":"?","Tags":"north_american_ale|golden_or_blonde_ale"}
+,
+{"Brewery":"New Belgium Brewing","City":"Fort Collins","Name":"Sunshine Wheat","Abv":"4.8%","Ibu":"?","Srm":"?","Tags":"other_style|light_american_wheat_ale_or_lager"}
+,
+{"Brewery":"Oasis Brewery Annex","City":"Boulder","Name":"Brown Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_brown_ale"}
+,
+{"Brewery":"Oasis Brewery Annex","City":"Boulder","Name":"Extra Special Bitter Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Oasis Brewery and Restaurant","City":"Boulder","Name":"Pale Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Odell Brewing","City":"Fort Collins","Name":"5 Barrel Pale Ale","Abv":"5.3%","Ibu":"?","Srm":"?","Tags":"british_ale|classic_english_style_pale_ale"}
+,
+{"Brewery":"Odell Brewing","City":"Fort Collins","Name":"90 Shilling","Abv":"5.3%","Ibu":"?","Srm":"?","Tags":"british_ale|scottish_style_light_ale"}
+,
+{"Brewery":"Odell Brewing","City":"Fort Collins","Name":"Bobby","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Odell Brewing","City":"Fort Collins","Name":"Cutthroat Porter","Abv":"4.8%","Ibu":"?","Srm":"?","Tags":"irish_ale|porter"}
+,
+{"Brewery":"Odell Brewing","City":"Fort Collins","Name":"Double Pilsner","Abv":"8.1%","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Odell Brewing","City":"Fort Collins","Name":"Easy Street Wheat","Abv":"4.6%","Ibu":"?","Srm":"?","Tags":"other_style|light_american_wheat_ale_or_lager"}
+,
+{"Brewery":"Odell Brewing","City":"Fort Collins","Name":"Imperial Stout","Abv":"7.1%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"Odell Brewing","City":"Fort Collins","Name":"Isolation Ale","Abv":"6%","Ibu":"?","Srm":"?","Tags":"other_style|winter_warmer"}
+,
+{"Brewery":"Odell Brewing","City":"Fort Collins","Name":"Levity Amber Ale","Abv":"5.1%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Odell Brewing","City":"Fort Collins","Name":"Odell IPA","Abv":"7%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_india_pale_ale"}
+,
+{"Brewery":"Odell Brewing","City":"Fort Collins","Name":"Odell Red Ale","Abv":"6.5%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Oskar Blues Grill and Brew","City":"Lyons","Name":"Dale's Pale Ale","Abv":"6.5%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Oskar Blues Grill and Brew","City":"Lyons","Name":"Gordon","Abv":"8.7%","Ibu":"?","Srm":"?","Tags":"north_american_ale|imperial_or_double_india_pale_ale"}
+,
+{"Brewery":"Oskar Blues Grill and Brew","City":"Lyons","Name":"Gubna Imperial IPA","Abv":"10%","Ibu":"?","Srm":"?","Tags":"north_american_ale|imperial_or_double_india_pale_ale"}
+,
+{"Brewery":"Oskar Blues Grill and Brew","City":"Lyons","Name":"Mama's Little Yella Pils","Abv":"5.3%","Ibu":"?","Srm":"?","Tags":"german_lager|german_style_pilsener"}
+,
+{"Brewery":"Oskar Blues Grill and Brew","City":"Lyons","Name":"Old Chub","Abv":"8%","Ibu":"?","Srm":"?","Tags":"british_ale|scotch_ale"}
+,
+{"Brewery":"Oskar Blues Grill and Brew","City":"Lyons","Name":"One Nut Brown Ale","Abv":"5%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_brown_ale"}
+,
+{"Brewery":"Oskar Blues Grill and Brew","City":"Lyons","Name":"Ten Fidy","Abv":"10%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_imperial_stout"}
+,
+{"Brewery":"Pint's Pub Brewery and Freehouse","City":"Denver","Name":"Dark Star ESB","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Pint's Pub Brewery and Freehouse","City":"Denver","Name":"Gael Force Scottish Export","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Pug Ryan's Steakhouse and Brewery","City":"Dillon","Name":"Pallavicini Pilsner","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Pumphouse Brewery & Restaurant","City":"Longmont","Name":"Four Alarm Alt","Abv":"4.8%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_brown_ale"}
+,
+{"Brewery":"Pumphouse Brewery & Restaurant","City":"Longmont","Name":"Red Alert Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"RedFish New Orleans Brewhouse","City":"Boulder","Name":"Angry Monk","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Rock Bottom Restaurant & Brewery - Denver","City":"Denver","Name":"Falcon Pale Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Rock Bottom Restaurant & Brewery - Denver","City":"Denver","Name":"Lucky U ESB","Abv":"5.1%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Rock Bottom Restaurant & Brewery - Denver","City":"Denver","Name":"Purple Nightie","Abv":"6.2%","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Rock Bottom Restaurant & Brewery - Denver","City":"Denver","Name":"Rocktoberfest","Abv":"5%","Ibu":"?","Srm":"?","Tags":"german_lager|german_style_oktoberfest"}
+,
+{"Brewery":"Rock Bottom Restaurant & Brewery - South Denver","City":"Englewood","Name":"Walnut Buffalo Gold Premium Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Rockyard Brewing","City":"Castle Rock","Name":"Hopyard IPA","Abv":"5.3%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_india_pale_ale"}
+,
+{"Brewery":"SandLot Brewery at Coors Field","City":"Denver","Name":"Barleywine","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"SandLot Brewery at Coors Field","City":"Denver","Name":"Oktoberfest","Abv":"?","Ibu":"?","Srm":"?","Tags":"german_lager|german_style_oktoberfest"}
+,
+{"Brewery":"Ska Brewing Company","City":"Durango","Name":"Modus Hoperandi","Abv":"6.8%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_india_pale_ale"}
+,
+{"Brewery":"Ska Brewing Company","City":"Durango","Name":"Steel Toe Stout","Abv":"5.4%","Ibu":"?","Srm":"?","Tags":"british_ale|sweet_stout"}
+,
+{"Brewery":"Steamworks Brewing - Durango","City":"Durango","Name":"Steam Engine Steam","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Tabernash Brewing","City":"Longmont","Name":"Dunkel Weizen","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Tabernash Brewing","City":"Longmont","Name":"Golden Pale","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Tabernash Brewing","City":"Longmont","Name":"Kristall Weiss","Abv":"?","Ibu":"?","Srm":"?","Tags":"german_ale|south_german_style_hefeweizen"}
+,
+{"Brewery":"Tabernash Brewing","City":"Longmont","Name":"Oktoberfest","Abv":"?","Ibu":"?","Srm":"?","Tags":"german_lager|german_style_oktoberfest"}
+,
+{"Brewery":"Tabernash Brewing","City":"Longmont","Name":"Weiss","Abv":"?","Ibu":"?","Srm":"?","Tags":"german_ale|south_german_style_hefeweizen"}
+,
+{"Brewery":"Tivoli Brewing","City":"Denver","Name":"Bitter Amber","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_amber_red_ale"}
+,
+{"Brewery":"Tommyknocker Brewery and Pub","City":"Idaho Springs","Name":"Alpine Glacier Lager","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Tommyknocker Brewery and Pub","City":"Idaho Springs","Name":"Black Powder Stout","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"Tommyknocker Brewery and Pub","City":"Idaho Springs","Name":"Butthead Doppelbock","Abv":"8.2%","Ibu":"?","Srm":"?","Tags":"german_lager|german_style_doppelbock"}
+,
+{"Brewery":"Tommyknocker Brewery and Pub","City":"Idaho Springs","Name":"Cocoa Porter","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Tommyknocker Brewery and Pub","City":"Idaho Springs","Name":"Imperial Nut Brown","Abv":"9.8%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_brown_ale"}
+,
+{"Brewery":"Tommyknocker Brewery and Pub","City":"Idaho Springs","Name":"Jack Whacker Wheat Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"other_style|light_american_wheat_ale_or_lager"}
+,
+{"Brewery":"Tommyknocker Brewery and Pub","City":"Idaho Springs","Name":"Maple Nut Brown Ale Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_brown_ale"}
+,
+{"Brewery":"Tommyknocker Brewery and Pub","City":"Idaho Springs","Name":"Ornery Amber Lager","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Tommyknocker Brewery and Pub","City":"Idaho Springs","Name":"Pick Axe Pale Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_pale_ale"}
+,
+{"Brewery":"Tommyknocker Brewery and Pub","City":"Idaho Springs","Name":"Red Eye Lager","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_lager|american_style_lager"}
+,
+{"Brewery":"Tommyknocker Brewery and Pub","City":"Idaho Springs","Name":"Tundrabeary Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"other_style|light_american_wheat_ale_or_lager"}
+,
+{"Brewery":"Trinity Brewing Company","City":"Colorado Springs","Name":"Flo IPA","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_india_pale_ale"}
+,
+{"Brewery":"Trinity Brewing Company","City":"Colorado Springs","Name":"Sunna Wit","Abv":"?","Ibu":"?","Srm":"?","Tags":"belgian_and_french_ale|belgian_style_white"}
+,
+{"Brewery":"Twisted Pine Brewing Company","City":"Boulder","Name":"Big Shot Espresso Stout","Abv":"?","Ibu":"?","Srm":"?","Tags":"?"}
+,
+{"Brewery":"Twisted Pine Brewing Company","City":"Boulder","Name":"Pearl Street Porter","Abv":"?","Ibu":"?","Srm":"?","Tags":"irish_ale|porter"}
+,
+{"Brewery":"Union Colony Brewery","City":"Greeley","Name":"Old 8444 Alt","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_brown_ale"}
+,
+{"Brewery":"Wolf Tongue Brewery","City":"Nederland","Name":"Mister Hoppy IPA","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_india_pale_ale"}
+,
+{"Brewery":"Wynkoop Brewing","City":"Denver","Name":"B3K Schwarzbier","Abv":"5.3%","Ibu":"?","Srm":"?","Tags":"german_lager|german_style_schwarzbier"}
+,
+{"Brewery":"Wynkoop Brewing","City":"Denver","Name":"Light Rail Ale","Abv":"?","Ibu":"?","Srm":"?","Tags":"north_american_ale|golden_or_blonde_ale"}
+,
+{"Brewery":"Wynkoop Brewing","City":"Denver","Name":"Obamanator Maibock","Abv":"?","Ibu":"?","Srm":"?","Tags":"german_lager|german_style_heller_bock_maibock"}
+,
+{"Brewery":"Wynkoop Brewing","City":"Denver","Name":"Patty's Chile Beer","Abv":"?","Ibu":"?","Srm":"?","Tags":"other_style|fruit_beer"}
+,
+{"Brewery":"Wynkoop Brewing","City":"Denver","Name":"Railyard Ale","Abv":"5.2%","Ibu":"?","Srm":"?","Tags":"german_lager|german_style_oktoberfest"}
+,
+{"Brewery":"Wynkoop Brewing","City":"Denver","Name":"Sagebrush Stout","Abv":"6.1%","Ibu":"?","Srm":"?","Tags":"north_american_ale|american_style_stout"}
+,
+{"Brewery":"Wynkoop Brewing","City":"Denver","Name":"St. Charles ESB","Abv":"4.5%","Ibu":"?","Srm":"?","Tags":"british_ale|extra_special_bitter"}
+,
+{"Brewery":"Wynkoop Brewing","City":"Denver","Name":"Two Guns Pilsner","Abv":"5%","Ibu":"?","Srm":"?","Tags":"german_lager|german_style_pilsener"}
+,
+{"Brewery":"Wynkoop Brewing","City":"Denver","Name":"Wixa Weiss","Abv":"4.8%","Ibu":"?","Srm":"?","Tags":"other_style|light_american_wheat_ale_or_lager"}
+
+]
