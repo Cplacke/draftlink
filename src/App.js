@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import straw from './img/beer/srmstraw.png';
+// import straw from './img/beer/srmstraw.png';
 
 import './App.css';
 import Beer from './components/Beer.js';
 
 class App extends Component {
   render() {
+    this.count();
     return (
       <div className="App">
         <header className="App-header">
@@ -16,6 +17,7 @@ class App extends Component {
         <p className="App-intro">
           <code>Durstig nach Bier?</code>
         </p>
+          <Beer rating={"4"}/>
           <Beer/>
           <Beer/>
           <Beer/>
@@ -26,12 +28,15 @@ class App extends Component {
           <Beer/>
           <Beer/>
           <Beer/>
-          <Beer/>
-          <Beer/>
-          <Beer/>
+
       </div>
     );
   }
+   count () {
+
+  }
 }
+
+
 
 export default App;

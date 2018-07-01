@@ -6,30 +6,32 @@ import './Beer.css';
 
 class Beer extends Component {
 
+  constructor () {
+    super();
+    this.images = new Images();
+    this.generator = new BeerGenerator();
+
+    this.state = {
+      beer: this.generator.getRandomBeer(),
+      img: this.images
+    }
+  }
+
   render() {
     // let image = getImage();
     // console.log(image);
-    let images = new Images();
-    let img = images.getImage();
-    let generator = new BeerGenerator();
-    let beer = generator.getRandomBeer();
-    console.log(beer);
-
     return (
       <div className='beer-container'>
-          <img className='image' src={img} alt='beer icon'/>
+          <img className='image' src={this.images.getImage()} alt='beer icon'/>
         <div className='info'>
-          <p className='beer-name'>{beer.Name}</p>
-          <p>{beer.Brewery} &ndash; {beer.City}</p>
-          <p>ABV: {beer.Abv}</p>
+          <p className='beer-name'>{this.state.beer.Name} {this.props.rating}</p>
+          <p>{this.state.beer.Brewery} &ndash; {this.state.beer.City}</p>
+          <p>ABV: {this.state.beer.Abv}</p>
         </div>
       </div>
     );
   }
 
-  doSomething () {
-
-  }
 }
 
 
