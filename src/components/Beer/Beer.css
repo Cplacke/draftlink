@@ -19,8 +19,9 @@
 }
 
 .info p {
-  margin: 3px;
+  margin: 0px;
   font-size: 20px;
+  font-family: 'Slabo 27px';
   /*display: inline-block;*/
   text-align: center;
 }
@@ -32,11 +33,10 @@
 
 .beer-container {
   height: 100px;
-  width: 40%;
-  margin: 10px;
-  background-color: #efe7bd; /* biege */
-  /*background-color: #6fa9c6;  blueish grey */
-  /*border: 1px solid black;*/
+  width: 95%;
+  /* margin: 10px; */
+  /* background-color: #f1f1f1; */
+  /* border: 1px solid black; */
   border-radius: 10px;
   display: inline-block;
   text-align: left;

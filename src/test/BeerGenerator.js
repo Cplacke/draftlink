@@ -9,7 +9,7 @@ class BeerGenerator {
   getRandomBeer () {
     const index = Math.floor(Math.random() * this.beers.length);
     const beer = this.beers[index];
-    console.log(beer);
+    // console.log(beer);
     return beer;
   }
 }
