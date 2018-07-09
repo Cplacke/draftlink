@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { getImage } from '../../img/Images';
 import './Beer.css';
 
 class Beer extends Component {
@@ -10,7 +11,7 @@ class Beer extends Component {
   render() {
     return (
       <div className='beer-container'>
-          <img className='image' src={this.images.getImage()} alt='beer icon'/>
+          <img className='image' src={getImage()} alt='beer icon'/>
         <div className='info'>
           <p className='beer-name'>{this.props.beer.Name}</p>
           <p>{this.props.beer.Brewery} &ndash; {this.props.beer.City}</p>

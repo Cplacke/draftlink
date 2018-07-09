@@ -11,9 +11,7 @@ import rubybrown from './beer/srmrubybrown.png';
 import deepbrown from './beer/srmdeepbrown.png';
 import black from './beer/srmblack.png';
 
-class Images {
-
-  getImage ( srm ) {
+  export function getImage ( srm ) {
 
     if ( srm == null ) {
       srm = Math.floor( Math.random() * 38 );
@@ -46,7 +44,3 @@ class Images {
     else
       return "ERROR";
   }
-
-}
-
-export default Images;

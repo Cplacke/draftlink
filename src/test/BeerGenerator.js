@@ -1,17 +1,10 @@
-import beer_csv from './beer_list.json';
+import beer_list from './beer_list.json';
 
-class BeerGenerator {
-
-  constructor ( csvfile ) {
-    this.beers = beer_csv;
-  }
-
-  getRandomBeer () {
-    const index = Math.floor(Math.random() * this.beers.length);
-    const beer = this.beers[index];
-    // console.log(beer);
+  export function getRandomBeer () {
+    const beerlist = beer_list;
+    const index = Math.floor(Math.random() * beerlist.length);
+    const beer = beerlist[index];
     return beer;
   }
-}
 
-export default BeerGenerator;
+
