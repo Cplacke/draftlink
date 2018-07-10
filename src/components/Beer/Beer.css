@@ -20,20 +20,41 @@
 
 .info p {
   margin: 0px;
-  font-size: 20px;
-  font-family: 'Slabo 27px';
+  /* font-size: 20px; */
   /*display: inline-block;*/
   text-align: center;
 }
 
+.ai-container {
+  font-family: 'Dosis', sans-serif; 
+  color : rgb(114, 114, 114);
+  font-weight: 900;
+  font-size: 18px;
+  display: block;
+  text-align: center;
+}
+
+.ibu, .abv {
+  padding: 0px 40px;
+  display: inline;
+  padding: auto;
+}
+
 .beer-name {
+  font-size: 24px;
   font-weight: bold;
+  font-family: 'Roboto Slab', serif;
   margin-top: 10px !important;
 }
 
+.brewery {
+  font-family: 'Roboto Slab', serif;
+  font-size : 20px;
+}
+
 .beer-container {
-  height: 100px;
-  width: 95%;
+  height: 90px;
+  width: 420px;
   /* margin: 10px; */
   /* background-color: #f1f1f1; */
   /* border: 1px solid black; */
