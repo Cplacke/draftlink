@@ -13,9 +13,12 @@ class Beer extends Component {
       <div className='beer-container'>
           <img className='image' src={getImage()} alt='beer icon'/>
         <div className='info'>
-          <p className='beer-name'>{this.props.beer.Name}</p>
-          <p>{this.props.beer.Brewery} &ndash; {this.props.beer.City}</p>
-          <p>ABV: {this.props.beer.Abv}</p>
+          <p className='beer-name'>{this.props.beer.name}</p>
+          <div className='ai-container'>
+            <p className='abv'>ABV: {this.props.beer.abv} </p> 
+            <p className='ibu'>IBU: {this.props.beer.ibu}</p>
+          </div>
+          <p className='brewery'>{this.props.beer.brewery} &ndash; NC</p>
         </div>
       </div>
     );
