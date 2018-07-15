@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux'
 import Beer from '../Beer/Beer'; 
 import { getRandomBeer } from '../../test/BeerGenerator';
 import './BeerList.css';
@@ -17,8 +18,8 @@ class BeerList extends Component {
 
   mapList () {
       return (
-        this.state.beerList.map((beer) => {
-        return ( <Beer beer={beer}/> );
+        this.state.beerList.map((beer, i) => {
+        return ( <Beer beer={beer} key={i}/> );
         })
       )
   }
@@ -42,6 +43,8 @@ class BeerList extends Component {
 
 }
 
+const mapStateToProps = (store) => {
+  return { }
+}
 
-
-export default BeerList;
+export default connect(mapStateToProps)(BeerList);
