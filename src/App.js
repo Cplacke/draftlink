@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import logo from './logo.svg';
 
 import './App.css';
@@ -17,12 +18,18 @@ class App extends Component {
         <p className="App-intro">
           <code>Durstig nach Bier?</code>
         </p>
-          <BeerList />
+          <BeerList beerList={this.props.draftList}/>
       </div>
     );
   }
 }
 
+const mapStateToProps = (store) => {
+  console.log('APP STORE ->', store);
+  return {
+    draftList : store.draftList,
+    bottleList : store.bottleList
+  }
+}
 
-
-export default App;
+export default connect(mapStateToProps)(App);
