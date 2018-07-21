@@ -26,17 +26,23 @@ class BeerList extends Component {
 
   generateList () {
     let beerlist = [];
-    for ( let i=0; i < 10; i++ ) {
+    for ( let i=0; i < 20; i++ ) {
       beerlist.push(getRandomBeer());
     }
     console.log(beerlist);
     return beerlist;
   }
 
+/**
+ * 
+ * 
+ */
   render() {
     return (
-      <div className='beer-list-container'>
+      <div id="accordian" className='beer-list-container container-fluid'>
+        <ul className="list-unstyled list-group">
         {this.mapList()}
+          </ul>
       </div>
     );
   }
