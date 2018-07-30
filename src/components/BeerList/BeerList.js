@@ -26,7 +26,7 @@ class BeerList extends Component {
 
   generateList () {
     let beerlist = [];
-    for ( let i=0; i < 20; i++ ) {
+    for ( let i=0; i < 30; i++ ) {
       beerlist.push(getRandomBeer());
     }
     console.log(beerlist);
@@ -35,15 +35,15 @@ class BeerList extends Component {
 
 /**
  * 
+      <div id="accordian" className='beer-list-container container-fluid'>
+      </div>
  * 
  */
   render() {
     return (
-      <div id="accordian" className='beer-list-container container-fluid'>
-        <ul className="list-unstyled list-group">
+        <ul id="mcm-list" className="list-unstyled list-group">
         {this.mapList()}
           </ul>
-      </div>
     );
   }
 
