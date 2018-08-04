@@ -13,6 +13,19 @@ class Beer extends Component {
     };
   }
 
+  _showDescription = () => {
+    if (this.state.open) {
+      return (
+        <div className="beer-description">
+          <Well>
+            {"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat ullamcorper ipsum, quis pellentesque purus. Nunc ultricies ornare tempus. Ut cursus sit amet arcu ac interdum. Sed in pulvinar lectus. Sed varius felis neque, et efficitur justo tincidunt vitae. Sed fringilla suscipit lorem, vel lacinia dolor convallis ut. Nam vel sem massa. Integer cursus, eros eu maximus placerat, quam urna bibendum tellus, quis ullamcorper ex tellus vitae purus. "}
+            { this.props.description }
+          </Well>
+        </div>
+      )
+    }
+  }
+
   /**
    * 
    * <div className="card">
@@ -71,35 +84,19 @@ class Beer extends Component {
   render() {
     return (
       <li>
-
-              
         <Button id="mcm-btn" onClick={() => this.setState({ open: !this.state.open })}>
-        
-        <Media>
-
-          <Media.Left align="middle">
-            <img width={64} height={64} src={getImage()} alt="thumbnail" />
-          </Media.Left>
-
-                <div  id="mcm-title" className='mt-0 mb-1 beer-title beer-name'>
-            <Media.Heading align="middle" className="container color-cont">
-                  {this.props.beer.name}
-            </Media.Heading>
-                </div>
-                <Collapse in={this.state.open}>
-          <div>
-            <Well>
-              Anim pariatur cliche reprehenderit, enim eiusmod high life
-              accusamus terry richardson ad squid. Nihil anim keffiyeh
-              helvetica, craft beer labore wes anderson cred nesciunt sapiente
-              ea proident.
-            </Well>
-          </div>
-        </Collapse>
-                
-
-        </Media>
-      </Button>
+          <Media>
+            <Media.Left align="middle">
+              <img width={64} height={64} src={getImage()} alt="thumbnail" />
+            </Media.Left>
+            <div  id="mcm-title" className='mt-0 mb-1 beer-title beer-name'>
+              <Media.Heading align="middle" className="container color-cont">
+                    {this.props.beer.name}
+              </Media.Heading>
+            </div>
+            { this._showDescription() }
+          </Media>
+        </Button>
       </li>
       
 
