@@ -19,6 +19,7 @@ class BeerList extends Component {
   mapList () {
       return (
         this.state.beerList.map((beer, i) => {
+          beer.description = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nullam non nisi est sit amet facilisis magna.`
         return ( <Beer beer={beer} key={i}/> );
         })
       )
