@@ -18,8 +18,8 @@ class Beer extends Component {
             <p className='abv'>ABV: {this.props.beer.abv} </p> 
             <p className='ibu'>IBU: {this.props.beer.ibu}</p>
           </div>
-          {/* <p className='brewery'>Dogfish Head</p> */}
-          <p className='brewery'>{this.props.beer.brewery}</p>
+          <p className='brewery'>Dogfish Head</p>
+          {/* <p className='brewery'>{this.props.beer.brewery}</p> */}
         </div>
       </div>
     );

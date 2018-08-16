@@ -35,7 +35,7 @@ class BeerList extends Component {
 
   render() {
     return (
-      <div className='beer-list-container'>
+      <div className='beer-list-container col-sm-4 offset-sm-1'>
         {this.mapList()}
       </div>
     );
