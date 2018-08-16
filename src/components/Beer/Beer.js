@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { getImage } from '../../img/Images';
 import './Beer.css';
+import { Button, Collapse, Well, Media } from 'react-bootstrap';
 
 class Beer extends Component {
 
-  constructor () {
+ constructor () {
     super();
 
     this.state  = {
@@ -36,7 +37,7 @@ class Beer extends Component {
           </div>
           <p className='brewery'>Dogfish Head</p>
           {/* <p className='brewery'>{this.props.beer.brewery}</p> */}
-          {this._showDescription()}
+          { this._showDescription() }
         </div>
       </a>
     );
@@ -47,7 +48,4 @@ class Beer extends Component {
 
 
 export default Beer;
-//
 // <Beer beer={beer} />
-//
-//
