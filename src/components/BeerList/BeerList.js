@@ -19,6 +19,7 @@ class BeerList extends Component {
   mapList () {
       return (
         this.state.beerList.map((beer, i) => {
+          beer.description = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nullam non nisi est sit amet facilisis magna.`
         return ( <Beer beer={beer} key={i}/> );
         })
       )
@@ -41,9 +42,9 @@ class BeerList extends Component {
  */
   render() {
     return (
-        <ul id="mcm-list" className="list-unstyled list-group">
+      <div className='beer-list-container col-sm-4 offset-sm-1'>
         {this.mapList()}
-          </ul>
+      </div>
     );
   }
 

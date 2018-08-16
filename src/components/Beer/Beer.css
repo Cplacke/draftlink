@@ -1,8 +1,20 @@
-.image {
+.beer-image {
   height: 80px;
   display: inline-block;
   text-align: left;
   margin-top: 10px;
+  vertical-align: top;
+}
+
+.beer-description {
+  text-align: left !important;
+}
+
+.beer-description-title {
+  text-align: left !important;
+  color: rgb(114, 114, 114);
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .icon {
@@ -11,18 +23,18 @@
   display: inline;
 }
 
-.info {
+.beer-info {
   height: 100%;
   width: 73%;
   display: inline-block;
   vertical-align: bottom;
+  margin-top: 15px;
 }
 
-.info p {
+.beer-info p {
   margin: 0px;
-  /* font-size: 20px; */
-  /*display: inline-block;*/
   text-align: center;
+  margin-bottom: 4px;
 }
 
 .ai-container {
@@ -56,9 +68,7 @@
   max-height: 120px;
   height: auto;
   width: 420px;
-  /* margin: 10px; */
-  /* background-color: #f1f1f1; */
-  /* border: 1px solid black; */
+  line-height: 1.4em;
   border-radius: 10px;
   display: inline-block;
   text-align: left;
