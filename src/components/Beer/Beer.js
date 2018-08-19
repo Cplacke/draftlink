@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { getImage } from '../../img/Images';
 import './Beer.css';
-import { Button, Collapse, Well, Media } from 'react-bootstrap';
+//import { Button, Collapse, Well, Media } from 'react-bootstrap';
 
 class Beer extends Component {
 

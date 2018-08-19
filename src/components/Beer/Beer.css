@@ -40,7 +40,7 @@
 .ai-container {
   font-family: 'Dosis', sans-serif; 
   /* color : rgb(114, 114, 114); */
-  color: cornsilk;
+  color: blueviolet;
   font-weight: 900;
   font-size: 18px;
   display: block;
@@ -48,7 +48,7 @@
 }
 
 .ibu, .abv {
-  padding: 0px 40px;
+  padding: 0px 30px;
   display: inline;
   padding: auto;
 }
@@ -67,11 +67,13 @@
 .beer-container {
   max-height: 120px;
   height: auto;
-  width: 420px;
+  width: 98%;
   line-height: 1.4em;
   border-radius: 10px;
   display: inline-block;
   text-align: left;
+  border: solid 2pt black;
+  margin-top: 5px;
 }
 
 #mcm-btn {
