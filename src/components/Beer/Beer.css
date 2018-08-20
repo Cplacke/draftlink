@@ -65,7 +65,7 @@
 }
 
 .beer-container {
-  max-height: 120px;
+  max-height: auto;
   height: auto;
   width: 98%;
   line-height: 1.4em;
@@ -73,19 +73,10 @@
   display: inline-block;
   text-align: left;
   border: solid 2pt black;
-  margin-top: 5px;
-}
-
-#mcm-btn {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 90%;
-}
-
-#mcm-title {
-  padding-top: 15px;
-  word-wrap: break-word;
-  width: 100%;
+  margin-bottom: 5px;
+  -moz-transition: height 1s;
+  -ms-transition: height 1s;
+  -o-transition: height 1s;
+  -webkit-transition: height 1s;
+  transition: height 1s;
 }

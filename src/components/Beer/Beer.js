@@ -42,10 +42,7 @@ class Beer extends Component {
       </a>
     );
   }
-
 }
-
-
 
 export default Beer;
 // <Beer beer={beer} />
