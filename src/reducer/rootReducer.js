@@ -7,7 +7,7 @@ const initialState = {
     color : {
         pri : '#262626',
         sec : '#23201d',
-        ter : 'e55e13'
+        ter : '#e55e13'
     },
     brewery : {
         name : 'Dogfish Head',
@@ -31,7 +31,7 @@ const initialState = {
             sizes : ['16oz'],
         }
     ],
-    selectedBeerId : null,
+    selectedBeerId : "<please select beer>",
 }
 
 export function rootReducer(state = initialState, action) {
