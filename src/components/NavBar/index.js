@@ -21,7 +21,7 @@ class NavBar extends Component {
     return (
       <nav className="draftlink-navbar row"> 
         <img className="brewery-logo" src={cloudsLogo} />
-        <div className="navbar-bar col-sm-10">
+        <div className="navbar-bar">
           {this.state.links.map( (link) => {
             return <a className="navbar-link" href={link.href}>{link.label}</a>
           })}

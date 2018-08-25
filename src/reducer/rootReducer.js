@@ -3,15 +3,15 @@ import { DISPLAY_BEER_DETAIL } from '../actions/types';
 // this is the initial state that the app will start with
 const initialState = {
 
-    title : 'Dogfish Head',
+    title : 'Clouds Brewing',
     color : {
         pri : '#262626',
         sec : '#23201d',
         ter : '#e55e13'
     },
     brewery : {
-        name : 'Dogfish Head',
-        state : 'DE',
+        name : 'Clouds Brewing',
+        state : 'NC',
     },
     sortBy : null, 
     draftList : [{
