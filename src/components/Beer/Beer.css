@@ -20,7 +20,7 @@
 .beer-description-title {
   text-align: left !important;
   margin-bottom: 4px;
-  color: rgb(114, 114, 114);
+  color: #e55e13;
   font-size: 14px;
   font-weight: 600;
 }
@@ -47,7 +47,7 @@
 
 .ai-container {
   font-family: 'Dosis', sans-serif; 
-  color : rgb(114, 114, 114);
+  color : #e55e13;
   font-weight: 900;
   font-size: 18px;
   display: block;
