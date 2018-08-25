@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import { getImage } from '../../img/Images';
 import './Beer.css';
 //import { Button, Collapse, Well, Media } from 'react-bootstrap';
@@ -15,7 +16,7 @@ class Beer extends Component {
   }
 
   _showDescription = () => {
-    if ( this.state.isOpen ) {
+    if ( this.props.selectedBeerId === this.props.beer.name  && this.state.isOpen ) {
       return (
         <div className='beer-description-container'>
           <p className='beer-description-title'>DESCRIPTION</p>
@@ -50,5 +51,11 @@ class Beer extends Component {
   }
 }
 
-export default Beer;
+const mapStateToProps = (store) => {
+  return {
+    selectedBeerId : store.selectedBeerId
+  }
+}
+
+export default connect(mapStateToProps)(Beer);
 // <Beer beer={beer} />
