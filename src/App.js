@@ -1,28 +1,25 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
 import logo from './logo.svg';
-
-import './App.css';
-// import Beer from './components/Beer/Beer';
+import { connect } from 'react-redux';
+import NavBar from './components/NavBar';
 import BeerList from './components/BeerList/BeerList';
+import './App.css';
+
 
 class App extends Component {
 
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-
+        {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Thirsty for Beer?</h1>
-
         </header>
-
         <p className="App-intro">
           <code>Durstig nach Bier?</code>
-        </p>
-        
-          <BeerList beerList={this.props.draftList}/>
+        </p> */}
+        <NavBar/>
+        <BeerList beerList={this.props.draftList}/>
       </div>
     );
   }

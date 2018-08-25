@@ -1,0 +1,33 @@
+.draftlink-navbar {
+	padding: 10px;
+  margin-left: 10px !important;
+  margin-bottom: 20px;
+}
+
+.navbar-bar {
+  background-color: #3a3a3a;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 80px;
+  border-bottom-left-radius: 34px;
+  border-top-left-radius: 34px;
+  width: 87pc;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.navbar-link {
+  color: #e55e13;
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 300;
+  margin-right: 190px;
+}
+
+.navbar-link:hover {
+  color: #e55e13;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
