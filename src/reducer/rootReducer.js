@@ -18,7 +18,7 @@ const initialState = {
             name : '90 Minute IPA',            style : 'Imperial IPA',
             abv : 9.0,            ibu : 90,    price : 7.00 ,
             description : 'Esquire Magazine calls our 90 Minute IPA., "perhaps the best I.P.A. in America." An Imperial I.P.A. brewed to be savored from a snifter. A big beer with a great malt backbone that stands up to the extreme hopping rate.',
-            sizes : [ '10oz', '16oz'],
+            sizes : [ '10oz', '16oz', '64oz'],
         },{
             name : 'Namaste',            style : 'Belgian-Style Wheat',
             abv : 4.8,            ibu : 20,    price : 7.00 ,
