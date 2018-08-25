@@ -25,9 +25,15 @@ class Beer extends Component {
     }
   }
 
+  handleClick = () => {
+    this.setState({ isOpen: !this.state.isOpen });
+    this.props.onClick();
+  }
+
+
   render() {
     return (
-      <a className='beer-container' onClick={() => this.setState({ isOpen: !this.state.isOpen })}>
+      <a className='beer-container' onClick={() => this.handleClick()}>
         <img className='beer-image' src={this.state.img} alt='beer icon'/>
         <div className='beer-info'>
           <p className='beer-name'>{this.props.beer.name}</p>
@@ -37,8 +43,8 @@ class Beer extends Component {
           </div>
           <p className='brewery'>Dogfish Head</p>
           {/* <p className='brewery'>{this.props.beer.brewery}</p> */}
-          { this._showDescription() }
         </div>
+        { this._showDescription() }
       </a>
     );
   }

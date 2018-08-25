@@ -1,11 +1,13 @@
+import { DISPLAY_BEER_DETAIL } from '../actions/types';
+
 // this is the initial state that the app will start with
 const initialState = {
 
     title : 'Dogfish Head',
     color : {
-        pri : '#b7a668',
-        sec : '#e5e3da',
-        ter : '#bf7c35'
+        pri : '#262626',
+        sec : '#23201d',
+        ter : 'e55e13'
     },
     brewery : {
         name : 'Dogfish Head',
@@ -28,7 +30,8 @@ const initialState = {
             description : 'This recipe is the actual oldest-known fermented beverage in the world! It is an ancient Turkish recipe using the original ingredients from the 2700 year old drinking vessels discovered in the tomb of King Midas. Somewhere between wine & mead; this smooth, sweet, yet dry ale will please the Chardonnay of beer drinker alike.',
             sizes : ['16oz'],
         }
-    ]
+    ],
+    selectedBeerId : null,
 }
 
 export function rootReducer(state = initialState, action) {
@@ -37,8 +40,12 @@ export function rootReducer(state = initialState, action) {
         case 'UPDATE_BEER_LIST':
             return state;
 
-        case 'SELECTED_BEER':
-            return state;
+        case (DISPLAY_BEER_DETAIL):
+            return Object.assign({}, state,
+                {
+                    selectedBeerId : action.payload.selectedId
+                }
+            );
             
         default:
             return state;
