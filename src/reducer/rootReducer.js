@@ -31,7 +31,7 @@ const initialState = {
             sizes : ['16oz'],
         }
     ],
-    selectedBeerId : "<please select beer>",
+    selectedBeer: null,
 }
 
 export function rootReducer(state = initialState, action) {
@@ -43,7 +43,7 @@ export function rootReducer(state = initialState, action) {
         case (DISPLAY_BEER_DETAIL):
             return Object.assign({}, state,
                 {
-                    selectedBeerId : action.payload.selectedId
+                    selectedBeer : action.payload.beer
                 }
             );
             
@@ -60,8 +60,6 @@ export function rootReducer(state = initialState, action) {
         //           }
         //         }
         //    );
-
-       
     }
 }
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { getImage } from '../../img/Images';
-import './Beer.css';
+import { getImage } from '../../assets/img/Images';
+import './styles.css';
 //import { Button, Collapse, Well, Media } from 'react-bootstrap';
 
 class Beer extends Component {

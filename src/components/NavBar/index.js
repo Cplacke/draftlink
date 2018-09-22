@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import cloudsLogo from '../../img/images/clouds-logo.png';
-import './NavBar.css';
+import cloudsLogo from '../../assets/img/images/clouds-logo.png';
+import './styles.css';
 
 class NavBar extends Component {
 
