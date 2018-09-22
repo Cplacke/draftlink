@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import Beer from '../Beer/Beer'; 
+import Beer from '../Beer/index'; 
 import { connect } from 'react-redux'
 import { getRandomBeer } from '../../test/BeerGenerator';
 import { displayBeerDetail } from '../../actions/userSelectionActions';
-import './BeerList.css';
-
+import './styles.css';
 
 class BeerList extends Component {
 
@@ -21,24 +20,23 @@ class BeerList extends Component {
       return (
         this.state.beerList.map((beer, i) => {
           beer.description = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nullam non nisi est sit amet facilisis magna.`
-        return ( <Beer beer={beer} key={i} onClick={() => this.props.dispatch(displayBeerDetail(beer.name))}/> );
+          return ( <Beer beer={beer} key={i} onClick={() => this.props.dispatch(displayBeerDetail(beer))}/> );
         })
       )
   }
 
   generateList () {
-    let beerlist = [];
+    let beerList = [];
     for ( let i=0; i < 10; i++ ) {
-      beerlist.push(getRandomBeer());
+      beerList.push(getRandomBeer());
     }
-    console.log(beerlist);
-    return beerlist;
+    console.log(beerList);
+    return beerList;
   }
 
-  render() {
+  render() {//col-sm-4 offset-sm-1
     return (
-      <div className='beer-list-container col-sm-4 offset-sm-1'>
-        <h4> SELECTED BEER: {this.props.store.selectedBeerId}</h4>
+      <div className='beer-list-container '>
         {this.mapList()}
       </div>
     );
@@ -47,7 +45,7 @@ class BeerList extends Component {
 }
 
 const mapStateToProps = (store) => (
-  { store } // not maping anything just getting the whole store
+  { store } // not mapping anything just getting the whole store
 )
 
 const mapDispatchToProps = (dispatch) => (

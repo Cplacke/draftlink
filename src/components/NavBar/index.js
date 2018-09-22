@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import cloudsLogo from '../../img/images/clouds-logo.png';
-import './NavBar.css';
+import cloudsLogo from '../../assets/img/images/clouds-logo.png';
+import './styles.css';
 
 class NavBar extends Component {
 
@@ -20,11 +20,15 @@ class NavBar extends Component {
   render() {
     return (
       <nav className="draftlink-navbar row"> 
-        <img className="brewery-logo" src={cloudsLogo} />
-        <div className="navbar-bar">
-          {this.state.links.map( (link) => {
-            return <a className="navbar-link" href={link.href}>{link.label}</a>
-          })}
+        <div className="col-2">
+          <img className="brewery-logo" src={cloudsLogo} />
+        </div>  
+        <div className="nav-col col-10">
+          <div className="navbar-bar">
+            {this.state.links.map( (link) => {
+              return <a className="navbar-link" href={link.href}>{link.label}</a>
+            })}
+          </div>
         </div>
       </nav>
     );
