@@ -27,12 +27,12 @@ class BeerList extends Component {
   }
 
   generateList () {
-    let beerlist = [];
+    let beerList = [];
     for ( let i=0; i < 10; i++ ) {
-      beerlist.push(getRandomBeer());
+      beerList.push(getRandomBeer());
     }
-    console.log(beerlist);
-    return beerlist;
+    console.log(beerList);
+    return beerList;
   }
 
   render() {
@@ -47,7 +47,7 @@ class BeerList extends Component {
 }
 
 const mapStateToProps = (store) => (
-  { store } // not maping anything just getting the whole store
+  { store } // not mapping anything just getting the whole store
 )
 
 const mapDispatchToProps = (dispatch) => (
