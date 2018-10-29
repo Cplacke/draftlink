@@ -10,63 +10,42 @@ import {
 
 export const sortABVAsc = () => (
     {
-        type: SORT_ABV_ASC,
-        payload: {
-            
-        }
+        type: SORT_ABV_ASC
     }
 )
 
 export const sortABVDesc = () => (
     {
-        type: SORT_ABV_DESC,
-        payload: {
-
-        }
+        type: SORT_ABV_DESC
     }
 )
 
 export const sortIBUAsc = () => (
     {
-        type: SORT_IBU_ASC,
-        payload: {
-
-        }
+        type: SORT_IBU_ASC
     }
 )
 
 export const sortIBUDesc = () => (
     {
-        type: SORT_IBU_DESC,
-        payload: {
-
-        }
+        type: SORT_IBU_DESC
     }
 )
 
 export const sortBeerABC = () => (
     {
-        type: SORT_BEER_ABC,
-        payload: {
-
-        }
+        type: SORT_BEER_ABC
     }
 )
 
 export const sortBreweryABC = () => (
     {
-        type: SORT_BREWERY_ABC,
-        payload: {
-
-        }
+        type: SORT_BREWERY_ABC
     }
 )
 
 export const sortTypeABC = () => (
     {
-        type: SORT_TYPE_ABC,
-        payload: {
-
-        }
+        type: SORT_TYPE_ABC
     }
 )

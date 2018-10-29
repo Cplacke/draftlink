@@ -5,7 +5,7 @@ import './Beer.css';
 
 class Beer extends Component {
 
- constructor () {
+  constructor () {
     super();
 
     this.state  = {
@@ -51,4 +51,3 @@ class Beer extends Component {
 }
 
 export default Beer;
-// <Beer beer={beer} />

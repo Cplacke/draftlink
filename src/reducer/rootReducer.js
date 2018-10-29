@@ -1,4 +1,5 @@
 import { DISPLAY_BEER_DETAIL } from '../actions/types';
+// import * as sorts from '../test/sorts'
 import {
     SORT_ABV_ASC,
     SORT_ABV_DESC,
@@ -59,41 +60,63 @@ export function rootReducer(state = initialState, action) {
             );
 
         case (SORT_ABV_ASC):
-            return 0;
+        // Return the beer list here from the actions payload and pass it into the appropriate sort function
+            return Object.assign({}, state, 
+                {
+                    draftList: sortBeers.sortABVAsc(state.draftList)
+                }
+            );
 
         case (SORT_ABV_DESC):
-            return 0;
+        // Return the beer list here from the actions payload and pass it into the appropriate sort function
+            return Object.assign({}, state, 
+                {
+                    draftList: sortBeers.sortABVDesc(state.draftList)
+                }
+            );
 
         case (SORT_IBU_ASC):
-            return 0;
+        // Return the beer list here from the actions payload and pass it into the appropriate sort function
+            return Object.assign({}, state, 
+                {
+                    draftList: sortBeers.sortIBUAsc(state.draftList)
+                }
+            );
 
         case (SORT_IBU_DESC):
-            return 0;
+        // Return the beer list here from the actions payload and pass it into the appropriate sort function
+            return Object.assign({}, state, 
+                {
+                    draftList: sortBeers.sortIBUDesc(state.draftList)
+                }
+            );
 
         case (SORT_BEER_ABC):
-            return 0;
+        // Return the beer list here from the actions payload and pass it into the appropriate sort function
+            return Object.assign({}, state, 
+                {
+                    draftList: sortBeers.sortBeerABC(state.draftList)
+                }
+            );
 
         case (SORT_BREWERY_ABC):
-            return 0;
+        // Return the beer list here from the actions payload and pass it into the appropriate sort function
+            return Object.assign({}, state, 
+                {
+                    draftList: sortBeers.sortBreweryABC(state.draftList)
+                }
+            );
 
         case (SORT_TYPE_ABC):
-            return 0;
+        // Return the beer list here from the actions payload and pass it into the appropriate sort function
+            return Object.assign({}, state, 
+                {
+                    draftList: sortBeers.sortStyleABC(state.draftList)
+                }
+            );
 
         default:
             return state;
-
-        // case 'ACTION_TYPE' :
-        //     let ns = state.nav.navigationStack, index = state.nav.index;
-        //     return Object.assign( {}, state,
-        //         {
-        //           nav : { // remove from the top of the stack, but never take the last element
-        //             navigationStack : ns.length > 1 ? ns.slice(0, ns.length-1) : ns,
-        //             index : index > 0 ? index - 1 : 0, // decrement, but never negitive
-        //           }
-        //         }
-        //    );
-
-
     }
 }
 
