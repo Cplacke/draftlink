@@ -7,4 +7,4 @@ export const SORT_IBU_ASC = 'SORT_IBU_ASC';
 export const SORT_IBU_DESC = 'SORT_IBU_DESC';
 export const SORT_BEER_ABC = 'SORT_BEER_ABC';
 export const SORT_BREWERY_ABC = 'SORT_BREWERY_ABC';
-export const SORT_TYPE_ABC = 'SORT_TYPE_ABC';
+export const SORT_STYLE_ABC = 'SORT_STYLE_ABC';

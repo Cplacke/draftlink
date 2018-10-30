@@ -9,11 +9,8 @@ class SortMenu extends Component {
         this.state = {
             showMenu: false,
         };
-
-        
     }
 
-    
     render() {
         return (
             <div>
@@ -28,12 +25,12 @@ class SortMenu extends Component {
                                 }}
                             >
                                 <button className='sort' onClick={() => this.props.dispatch({ type : 'SORT_ABV_DESC'})}> ABV (High -> Low) </button>
-                                {/* <button className='sort' onClick={this.sort(1)}> ABV (Low -> High) </button>
-                                <button className='sort' onClick={this.sort(2)}> IBU (High -> Low) </button>
-                                <button className='sort' onClick={this.sort(3)}> IBU (Low -> High) </button>
-                                <button className='sort' onClick={this.sort(4)}> Beer A->Z </button>
-                                <button className='sort' onClick={this.sort(5)}> Brewery A->Z </button>
-                                <button className='sort' onClick={this.sort(6)}> Style A->Z </button> */}
+                                <button className='sort' onClick={() => this.props.dispatch({ type : 'SORT_ABV_ASC'})}> ABV (Low -> High) </button>
+                                <button className='sort' onClick={() => this.props.dispatch({ type : 'SORT_IBU_DESC'})}> IBU (High -> Low) </button>
+                                <button className='sort' onClick={() => this.props.dispatch({ type : 'SORT_IBU_ASC'})}> IBU (Low -> High) </button>
+                                <button className='sort' onClick={() => this.props.dispatch({ type : 'SORT_BEER_ABC'})}> Beer A->Z </button>
+                                {/* <button className='sort' onClick={() => this.props.dispatch({ type : 'SORT_BREWERY_ABC'})}> Brewery A->Z </button> */}
+                                <button className='sort' onClick={() => this.props.dispatch({ type : 'SORT_STYLE_ABC'})}> Style A->Z </button>
                             </div>
                         )
                         : (
@@ -52,4 +49,3 @@ const mapStateToProps = (store) => {
 }
 
 export default connect(mapStateToProps)(SortMenu);
-// export default SortMenu;

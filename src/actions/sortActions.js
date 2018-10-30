@@ -5,7 +5,7 @@ import {
     SORT_IBU_DESC,
     SORT_BEER_ABC,
     SORT_BREWERY_ABC,
-    SORT_TYPE_ABC
+    SORT_STYLE_ABC
 } from './types';
 
 export const sortABVAsc = () => (
@@ -44,8 +44,8 @@ export const sortBreweryABC = () => (
     }
 )
 
-export const sortTypeABC = () => (
+export const sortStyleABC = () => (
     {
-        type: SORT_TYPE_ABC
+        type: SORT_STYLE_ABC
     }
 )

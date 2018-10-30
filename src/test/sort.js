@@ -1,57 +1,52 @@
 export const sortBeers = {
     /** Sort by ABV in descending order */
     sortABVDesc: (list) => {
-        console.log(list);
-        list.sort((a, b) => b.abv - a.abv);
-        console.log(list);
+        console.log('ABV Desc');
+        let sortedList = list.sort((a, b) => b.abv - a.abv);
+        console.log(sortedList);
+        return sortedList;
     },
     /** Sort by ABV in ascending order */
     sortABVAsc: (list) => {
-        list.sort((a, b) => { 
-            // a = a.toLowerCase();
-            // b = b.toLowerCase();
-            return a.abv > b.abv ? 1 : b.abv > a.abv ? -1 : 0;
-        });
+        console.log('ABV Asc');
+        let sortedList = list.sort((a, b) => a.abv - b.abv);
+        console.log(sortedList);
+        return sortedList;
     },
     /** Sort by IBU in descending order */
     sortIBUDesc: (list) => {
-        list.sort((a, b) => { 
-            // a = a.toLowerCase();
-            // b = b.toLowerCase();
-            return a.ibu > b.ibu ? -1 : b.ibu > a.ibu ? 1 : 0;
-        });
+        console.log('IBU Desc');
+        let sortedList = list.sort((a, b) => b.ibu - a.ibu);
+        console.log(sortedList);
+        return sortedList;
     },
     /** Sort by IBU in ascending order */
     sortIBUAsc: (list) => {
-        list.sort((a, b) => { 
-            // a = a.toLowerCase();
-            // b = b.toLowerCase();
-            return a.ibu > b.ibu ? 1 : b.ibu > a.ibu ? -1 : 0;
-        });
+        console.log('IBU Asc');
+        let sortedList = list.sort((a, b) => a.ibu - b.ibu);
+        console.log(sortedList);
+        return sortedList;
     },
     /** Sort by Beer name alphabetically */
     sortBeerABC: (list) => {
-        list.sort((a, b) => { 
-            // a = a.toLowerCase();
-            // b = b.toLowerCase();
-            return a.name > b.name ? 1 : b.name > a.name ? -1 : 0;
-        });
+        console.log('Beer ABC');
+        let sortedList = list.sort((a, b) => a.name.localeCompare(b.name));
+        console.log(sortedList);
+        return sortedList;
     },
     /** Sort by Brewery name alphabetically */
-    sortBreweryABC: (list) => {
-        list.brewery.sort((a, b) => { 
-            // a = a.toLowerCase();
-            // b = b.toLowerCase();
-            return a.brewery > b.brewery ? 1 : b.brewery > a.brewery ? -1 : 0;
-        });
-    },
+    // sortBreweryABC: (list) => {
+    //     console.log(list);
+    //     let sortedList = list.sort((a, b) => a.name - b.abv);
+    //     console.log(sortedList);
+    //     return sortedList;
+    // },
     /** Sort by Beer Style alphabetically */
     sortStyleABC: (list) => {
-        list.style.sort((a, b) => { 
-            // a = a.toLowerCase();
-            // b = b.toLowerCase();
-            return a.style > b.style ? 1 : b.style > a.style ? -1 : 0; 
-        });
+        console.log('Style ABC');
+        let sortedList = list.sort((a, b) => a.style.localeCompare(b.style));
+        console.log(sortedList);
+        return sortedList;
     }
 }
 

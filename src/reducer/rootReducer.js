@@ -7,7 +7,7 @@ import {
     SORT_IBU_DESC,
     SORT_BEER_ABC,
     SORT_BREWERY_ABC,
-    SORT_TYPE_ABC
+    SORT_STYLE_ABC
 } from '../actions/types';
 import { sortBeers } from '../test/sort';
 
@@ -26,7 +26,8 @@ const initialState = {
         state: 'NC',
     },
     sortBy: null,
-    draftList: [{
+    draftList: [
+        {
         name: '90 Minute IPA', style: 'Imperial IPA',
         abv: 9.0, ibu: 90, price: 7.00,
         description: 'Esquire Magazine calls our 90 Minute IPA., "perhaps the best I.P.A. in America." An Imperial I.P.A. brewed to be savored from a snifter. A big beer with a great malt backbone that stands up to the extreme hopping rate.',
@@ -98,16 +99,16 @@ export function rootReducer(state = initialState, action) {
                     draftList: sortBeers.sortBeerABC(state.draftList)
                 }
             );
+        /** Currently beers from different breweries dont display together, so there's no need to sort by brewery. */
+        // case (SORT_BREWERY_ABC):
+        // // Return the beer list here from the actions payload and pass it into the appropriate sort function
+        //     return Object.assign({}, state, 
+        //         {
+        //             draftList: sortBeers.sortBreweryABC(state.draftList)
+        //         }
+        //     );
 
-        case (SORT_BREWERY_ABC):
-        // Return the beer list here from the actions payload and pass it into the appropriate sort function
-            return Object.assign({}, state, 
-                {
-                    draftList: sortBeers.sortBreweryABC(state.draftList)
-                }
-            );
-
-        case (SORT_TYPE_ABC):
+        case (SORT_STYLE_ABC):
         // Return the beer list here from the actions payload and pass it into the appropriate sort function
             return Object.assign({}, state, 
                 {
